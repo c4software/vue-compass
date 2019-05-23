@@ -1,7 +1,8 @@
 {
   "scripts": {
     "prepare": "pika-web --clear",
-    "serve": "serve ./"
+    "serve": "serve ./",
+    "serves": "ws --https"
   },
   "@pika/web": {
     "webDependencies": [
