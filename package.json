@@ -6,11 +6,15 @@
   },
   "@pika/web": {
     "webDependencies": [
-      "vue/dist/vue.esm.browser.js"
+      "vue/dist/vue.esm.browser.js",
+      "vue-router",
+      "http-vue-loader/src/httpVueLoader.js"
     ]
   },
   "dependencies": {
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.6",
+    "http-vue-loader": "^1.4.0"
   },
   "devDependencies": {
     "@pika/web": "^0.4.2",
