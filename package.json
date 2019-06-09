@@ -17,7 +17,7 @@
     "vue-router": "^3.0.6"
   },
   "devDependencies": {
-    "@pika/web": "^0.4.2",
-    "serve": "^11.0.0"
+    "@pika/web": "^0.4.3",
+    "serve": "^11.0.1"
   }
 }
