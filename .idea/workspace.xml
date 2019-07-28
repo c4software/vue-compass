@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba3fadc0-8935-4256-9274-4ab9e5fe0092" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/compass.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/compass.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/speedometer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/speedometer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_modules/vue-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_modules/vue-router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_modules/vue-router.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_modules/vue-router.js.map" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +31,7 @@
   </component>
   <component name="ProjectId" id="1OeOjS7I83PARG41gedDqlMI3ng" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -62,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564334730928</updated>
-      <workItem from="1564334734036" duration="137000" />
+      <workItem from="1564334734036" duration="938000" />
     </task>
     <servers />
   </component>

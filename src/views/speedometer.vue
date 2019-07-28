@@ -1,12 +1,29 @@
 <template>
     <div class="container">
-        <h1 class="big">0</h1>
+        <h1 class="big">{{speed}}</h1>
     </div>
 </template>
 
 <script>
   module.exports = {
-    name: "speedometer"
+    name: "speedometer",
+    data() {
+      return {
+        watcher: undefined,
+        speed: 0,
+      }
+    },
+    mounted() {
+      this.watcher = navigator.geolocation.watchPosition(this.handlePosition, undefined, {enableHighAccuracy: true});
+    },
+    beforeDestroy() {
+      navigator.geolocation.clearWatch(this.watcher);
+    },
+    methods: {
+      handlePosition(position) {
+        this.speed = position.coords.speed || 0
+      }
+    }
   };
 </script>
 
