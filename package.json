@@ -1,23 +1,26 @@
 {
   "scripts": {
-    "prepare": "pika-web --clear",
+    "prepare": "snowpack --clean --optimize",
     "serve": "serve ./",
     "serves": "ws --https"
   },
-  "@pika/web": {
+  "snowpack": {
     "webDependencies": [
       "vue/dist/vue.esm.browser.js",
       "vue-router",
       "http-vue-loader/src/httpVueLoader.js"
+    ],
+    "dedupe": [
+      "vue"
     ]
   },
   "dependencies": {
-    "http-vue-loader": "^1.4.0",
-    "vue": "^2.6.10",
-    "vue-router": "^3.0.7"
+    "http-vue-loader": "^1.4.2",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6"
   },
   "devDependencies": {
-    "@pika/web": "^0.4.4",
+    "snowpack": "^1.6.0",
     "serve": "^11.1.0",
     "local-web-server": "^3.0.7"
   }
